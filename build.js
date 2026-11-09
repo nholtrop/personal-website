@@ -188,18 +188,20 @@ function render({ preview = false } = {}) {
         ${linksHTML(w.links)}</li>`).join('')}</ul>`;
 
   const mediaTypeLabel = { press: 'Press', interview: 'Interview', video: 'Video', podcast: 'Podcast', photo: 'Photo' };
-  const mediaHTML = arr(MED.items).map(m => {
+  const MEDIA_SHOWN = 9;
+  const mediaHTML = arr(MED.items).map((m, idx) => {
     const yt = youtubeId(m.url);
     let visual = '';
     if (m.type === 'photo' && m.image) visual = `<img class="media-img" src="${esc(m.image)}" alt="${esc(m.title)}" loading="lazy">`;
     else if (yt) visual = `<button class="media-play" type="button" data-yt="${yt}" aria-label="Play ${esc(m.title)}">${icon('play')}<span>Play here</span></button>`;
     else if (m.audio) visual = `<audio class="media-audio" controls preload="none" src="${esc(m.audio)}"></audio>`;
-    return `<li class="media-card media-${esc(m.type)}">
+    return `<li class="media-card media-${esc(m.type)}${idx >= MEDIA_SHOWN ? ' media-extra' : ''}">
       ${visual}
       <div class="media-text">
         <p class="media-kicker"><span>${esc(mediaTypeLabel[m.type] || m.type)}</span><span>${esc(m.outlet)}${m.date ? ` · ${esc(m.date)}` : ''}</span></p>
         <h3 class="media-title">${m.url ? `<a href="${esc(m.url)}"${ext(m.url)}>${inline(m.title)}</a>` : inline(m.title)}</h3>
         ${m.description ? `<p class="media-desc">${inline(m.description)}</p>` : ''}
+        ${linksHTML(m.links)}
       </div></li>`;
   }).join('');
 
@@ -281,6 +283,7 @@ function render({ preview = false } = {}) {
     <div class="wrap">
       <div class="section-head"><h2>Media</h2><p class="count">Interviews, coverage and talks</p></div>
       <ul class="media-grid">${mediaHTML}</ul>
+      ${arr(MED.items).length > MEDIA_SHOWN ? `<p class="more-wrap"><button type="button" class="more-btn" data-more aria-expanded="false" hidden>Show all ${arr(MED.items).length} media items</button></p>` : ''}
     </div>
   </section>` : ''}
 

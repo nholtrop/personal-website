@@ -26,6 +26,19 @@
     });
   });
 
+  // Collapse older media items until "Show all" is clicked
+  var more = document.querySelector('[data-more]');
+  var extra = document.querySelectorAll('.media-extra');
+  if (more && extra.length) {
+    extra.forEach(function (el) { el.hidden = true; });
+    more.hidden = false;
+    more.addEventListener('click', function () {
+      extra.forEach(function (el) { el.hidden = false; });
+      more.setAttribute('aria-expanded', 'true');
+      more.parentNode.hidden = true;
+    });
+  }
+
   // Copy email
   document.querySelectorAll('.copy[data-copy]').forEach(function (b) {
     b.addEventListener('click', function () {

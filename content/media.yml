@@ -1,16 +1,114 @@
-# Media items, newest first.
+# Media items, newest first. The first 9 are shown; the rest appear under "Show all".
 # type: press | interview | video | podcast | photo
 # YouTube links are embedded automatically (privacy enhanced, loads on click).
+# links: optional extra buttons, e.g. a video of a TV item.
 # For your own audio, put the mp3 in static/media/ and set audio: media/file.mp3
 # For photos, put the image in static/img/ and set image: img/file.jpg
 
 items:
+  - type: video
+    title: Koop jij liever A-merken of B-merken?
+    outlet: L1 Nieuws, Instagram
+    date: Oct 2026
+    url: https://www.instagram.com/p/DfCtJNdDZhc/
+    description: Short video on choosing between national brands and private labels in the supermarket.
+
+  - type: press
+    title: Hoe gezond zijn toegevoegde eiwitten?
+    outlet: New Scientist
+    date: Oct 2026
+    url: https://www.newscientist.nl/premium/hoe-gezond-zijn-toegevoegde-eiwitten/
+    description: Science journalist Dennis Vaendel examines whether the growing range of supermarket products with added protein offers real benefits.
+
+  - type: press
+    title: Local market demand explains EU price gaps
+    outlet: European Supermarket Magazine
+    date: Sep 2026
+    url: https://www.esmmagazine.com/retail/local-market-demand-explains-eu-price-gaps-tilburg-maastricht-universities-321356
+    description: Coverage of our Tilburg and Maastricht research showing that territorial supply constraints are not the main driver of price differences across EU countries.
+
+  - type: video
+    title: Shoppen en scrollen
+    outlet: RTL 4, EditieNL
+    date: Sep 2026
+    url: https://www.rtl.nl/nieuws/uitzendingen/video/a8e68415-1a0f-4dc2-8c99-d20b10d8b176/aflevering-254
+    description: Television contribution to EditieNL, episode 254.
+    links:
+      - label: Video on Instagram
+        url: https://www.instagram.com/editienl/reel/DdRTTOTjrqO/
+
+  - type: video
+    title: Holland is superbillig!
+    outlet: RTL 4
+    date: May 2026
+    url: https://www.rtl.nl/nieuws/uitzendingen/video/6af9852f-744e-44ba-82fd-09d024410559/aflevering-131
+    description: Television contribution to RTL 4, episode 131.
+    links:
+      - label: Video on Instagram
+        url: https://www.instagram.com/p/DYR7LzBNsSJ/
+
+  - type: video
+    title: "Sluiting callcenter raakt werknemers hard: 'Gevolgen kunnen heel groot zijn'"
+    outlet: SVJ media
+    date: Mar 2026
+    url: https://svjmedia.nl/upd8/2143/sluiting-callcenter-raakt-werknemers-hard-gevolgen-kunnen-heel-groot-zijn/
+    description: Expert comment on the consequences of a Maastricht call centre closure for its roughly 250 employees.
+
   - type: podcast
     title: Recent brand consumption and brand choice
     outlet: YouTube
     date: 2026
     url: https://www.youtube.com/watch?v=nyt1ZF0DOdk
     description: Discussion of how recent consumption, beyond purchase history, shapes brand choice under uncertainty.
+
+  - type: press
+    title: Nog altijd veel misleidende reclames in aanloop naar Black Friday
+    outlet: NOS
+    date: Nov 2025
+    url: https://nos.nl/artikel/2591200-nog-altijd-veel-misleidende-reclames-in-aanloop-naar-black-friday
+    description: Expert comment on misleading discount claims in the run-up to Black Friday.
+
+  - type: press
+    title: Driekwart retailers misleidt met Black Friday-kortingen
+    outlet: Kort.news
+    date: Nov 2025
+    url: https://www.kort.news/artikel/driekwart-retailers-misleidt-met-black-friday-kortingen
+    description: On the ACM finding that most of the retailers it investigated offered misleading Black Friday discounts.
+
+  - type: press
+    title: Stortvloed aan nepkortingen in aanloop naar Black Friday
+    outlet: ID.nl
+    date: Nov 2025
+    url: https://id.nl/huis-en-entertainment/computer-en-gaming/computer-accessoires/stortvloed-aan-nepkortingen-in-aanloop-naar-black-friday
+    description: Advice for consumers on recognising fake discounts during Black Friday.
+
+  - type: press
+    title: "Van één koopjesdag naar koopjesmaand: Black Friday loopt uit de hand"
+    outlet: Wonen360
+    date: Nov 2025
+    url: https://www.wonen360.nl/article/9784238/van-een-koopjesdag-naar-koopjesmaand-black-friday-loopt-uit-de-hand/
+    description: On how Black Friday has grown from a single day of deals into a month of discounts.
+
+  - type: press
+    title: "Black Friday wordt steeds meer een Black November: 'Kunnen niet meer stoppen'"
+    outlet: NOS
+    date: Nov 2025
+    url: https://nos.nl/artikel/2590041-black-friday-wordt-steeds-meer-een-black-november-kunnen-niet-meer-stoppen
+    description: Expert comment, with Caroline Goukens, on why retailers start their Black Friday promotions ever earlier.
+
+  - type: press
+    title: "Prijsstijgingen met de feestdagen: hoe zit het precies?"
+    outlet: L1 Nieuws
+    date: Nov 2024
+    url: https://www.l1nieuws.nl/nieuws/2791257/prijsstijgingen-met-de-feestdagen-hoe-zit-het-precies
+    description: On why prices of gifts can fluctuate strongly around Sinterklaas and Christmas.
+
+  - type: podcast
+    title: Heeft Maastricht nog toekomst als winkelstad?
+    outlet: Centrum Management Maastricht
+    date: Jan 2024
+    url: https://cmmaastricht.nl/maastrichtstad/
+    description: Podcast on the future of Maastricht as a shopping city.
 
   - type: interview
     title: The paper that almost died of COVID-19
