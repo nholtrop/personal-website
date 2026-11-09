@@ -1,0 +1,49 @@
+# Media items, newest first.
+# type: press | interview | video | podcast | photo
+# YouTube links are embedded automatically (privacy enhanced, loads on click).
+# For your own audio, put the mp3 in static/media/ and set audio: media/file.mp3
+# For photos, put the image in static/img/ and set image: img/file.jpg
+
+items:
+  - type: podcast
+    title: Recent brand consumption and brand choice
+    outlet: YouTube
+    date: 2026
+    url: https://www.youtube.com/watch?v=nyt1ZF0DOdk
+    description: Discussion of how recent consumption, beyond purchase history, shapes brand choice under uncertainty.
+
+  - type: interview
+    title: The paper that almost died of COVID-19
+    outlet: IJRM Newsletter
+    date: 2025
+    url: https://www.ijrm-newsletter.com/post/the-paper-that-almost-died-of-covid-19
+    description: Interview on the making of the online direct channel paper.
+
+  - type: press
+    title: Healthy shopping dynamics in the grocery store
+    outlet: StudyFinds
+    date: 2024
+    url: https://studyfinds.org/grocery-store-seesaw/
+    description: Coverage of our finding that shoppers balance healthy and unhealthy choices during a shopping trip.
+
+  - type: interview
+    title: A melody of data
+    outlet: IJRM Newsletter
+    date: 2023
+    url: https://www.ijrm-newsletter.com/post/a-melody-of-data
+    description: Interview on timing customer reactivation initiatives.
+
+  - type: video
+    title: Predicting churn in the face of customer privacy
+    outlet: YouTube
+    date: 2017
+    url: https://www.youtube.com/watch?v=T7uoUwwBnhU
+    description: Short video explaining the EMAC/Sheth award winning paper on privacy preserving churn prediction.
+
+  # Example photo entry:
+  # - type: photo
+  #   title: Keynote at the Retail Summit
+  #   outlet: Maastricht
+  #   date: 2026
+  #   image: img/retail-summit.jpg
+  #   description: Optional caption.

@@ -1,0 +1,55 @@
+# Personal details, bio and links shown at the top of the page.
+
+name: Niels Holtrop
+title: Associate Professor of Marketing
+affiliation: Maastricht University, School of Business and Economics
+department: Department of Marketing & Supply Chain Management
+photo: img/profile.jpg
+# Full address of the site once live, used for link previews.
+site_url: https://nielsholtrop.nl
+share_image: img/share.jpg
+tagline: I use econometric and statistical methods to measure the impact of marketing and policy decisions, and to improve them.
+
+bio: |
+  Niels Holtrop is Associate Professor at the Department of Marketing and Supply Chain Management at the School of Business and Economics (SBE) at Maastricht University. His research centers on the use of econometric and statistical methods to measure the impact of, and improve, marketing and policy decisions. His substantive interests include customer management and privacy, consumer choice and health, and marketing mix effectiveness.
+
+  He has contributed to research published in the International Journal of Research in Marketing, Journal of Retailing, Management Science and Marketing Letters, and serves on the Editorial Review Board of the Journal of Retailing. He was awarded the 2018 EMAC/Sheth Dissertation Award and the 2026 EMAC/Sheth Sustainability Award for his research, the 2019 Best Graduate Educator Award of SBE for his teaching, and the 2021 Best Program Leader Award of SBE for his service. He is one of the co-founders of the Center for Responsible Retailing at Maastricht University (CRRUM).
+
+substantive_interests:
+  - Customer management & privacy
+  - Consumer choice & health
+  - Marketing mix effectiveness
+
+methodological_interests:
+  - Time series analysis
+  - Choice models
+  - Econometric models
+  - Bayesian methods
+  - Machine and deep learning
+
+email: n.holtrop@maastrichtuniversity.nl
+address:
+  - School of Business and Economics, Maastricht University
+  - Tongersestraat 53
+  - 6211 LM Maastricht
+  - The Netherlands
+
+# Leave cv_pdf empty to hide the "Download CV" button.
+cv_pdf: ""
+
+links:
+  - label: Google Scholar
+    icon: scholar
+    url: https://scholar.google.com/citations?user=ORPU0gwAAAAJ
+  - label: ORCID
+    icon: orcid
+    url: https://orcid.org/0000-0001-6375-1088
+  - label: LinkedIn
+    icon: linkedin
+    url: https://www.linkedin.com/in/nholtrop/
+  - label: Maastricht University
+    icon: university
+    url: https://www.maastrichtuniversity.nl/n-holtrop
+  - label: CRRUM
+    icon: globe
+    url: https://www.responsibleretailing.nl/

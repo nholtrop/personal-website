@@ -1,0 +1,140 @@
+# Journal publications, newest first.
+# topics: any of customer, health, retail, methods (used by the filter buttons).
+# links: label + url; common labels are PDF, DOI, Podcast, Video, Interview, Code, Slides, Data.
+
+topics:
+  - id: customer
+    label: Customer management & privacy
+  - id: health
+    label: Consumer choice & health
+  - id: retail
+    label: Retailing & marketing mix
+  - id: methods
+    label: Methods & reproducibility
+
+items:
+  - title: "Impact of recent brand consumption on brand choice: The role of uncertainty"
+    authors: Kathleen Cleeren, Néomie Raassens, Niels Holtrop, J. Jeffrey Inman, Henri Defoor
+    journal: International Journal of Research in Marketing
+    details: in press
+    year: 2026
+    topics: [health]
+    links:
+      - label: DOI
+        url: https://doi.org/10.1016/j.ijresmar.2026.01.003
+      - label: Podcast
+        url: https://www.youtube.com/watch?v=nyt1ZF0DOdk
+    abstract: >
+      Consumers often face uncertainty during grocery shopping. Theory suggests that consumers deal with this uncertainty by relying on internal information sources and hence focus on their memories about the product. Prior research mainly focuses on the role of purchase history during brand choices. However, recent brand consumption can also be an important internal source with potentially different types of information. Yet, the role of recent brand consumption during brand choice decisions is still unknown. In this paper, we use a unique dataset combining data from consumption diaries and purchase scanners for almost 4,000 households to study the impact of recent brand consumption on current brand choices and the moderating impact of variables that influence households' experienced uncertainty (i.e., brand price, the households' budget strictness, and brand experience). We find that recent brand consumption has an important impact on brand choice decisions above and beyond purchase history. Moreover, the role of recent brand consumption becomes stronger in more uncertain situations (i.e., when the brand price is higher, when the budget is more strict, and when the household has less experience with the brand). Overall, our findings contribute to extant choice literature by revealing the pivotal role of recent brand consumption during brand choices and explicating key contingency factors.
+
+  - title: "The impact of the first light purchase on purchase behavior: A replication across categories and households"
+    authors: Niels Holtrop, Kathleen Cleeren, Kelly Geyskens, Peter C. Verhoef
+    journal: Marketing Letters
+    details: 37, article 11
+    year: 2026
+    topics: [health, methods]
+    links:
+      - label: DOI
+        url: https://doi.org/10.1007/s11002-025-09807-0
+    abstract: >
+      In this study, we replicate (Cleeren et al., 2016 International Journal of Research in Marketing, 33, 896–906), who examined the short and long-term effects of a first light purchase on subsequent purchase behavior for a single product category, and extend their analysis across 26 product categories while considering potential moderators. We find that Cleeren et al.'s (2016) results replicate only partially. That is, after the first light purchase, households purchase more volume and caloric content in the short run. While we still find that volume increases in the long run, caloric content turns out to decrease in the long run – especially for high-equity brands and among households that intend to eat healthily and purchase more frequently. Discounted products show short-term volume and caloric content increases, but no long-term changes. Similar findings apply to products from healthier categories, although these show a decrease in short-term caloric content. Higher (versus lower) income households do not exhibit short-term behavioral changes but decrease their long-term purchase volume. In contrast, larger (versus smaller) households exhibit decreased short-term volume and calories purchased, but do not change long-term behavior.
+
+  - title: Paving the way for responsible retailing
+    authors: Niels Holtrop, Lara Lobschat, Anne ter Braak
+    journal: Journal of Retailing
+    details: 101 (1), 1–6
+    year: 2025
+    topics: [retail]
+    links:
+      - label: DOI
+        url: https://doi.org/10.1016/j.jretai.2025.02.006
+    abstract: >
+      In today's increasingly complex and disruptive marketplace, retailers face mounting pressures from rising costs, shifting consumer expectations, and heightened regulatory scrutiny. This guest editorial by the founding scholars of the Center for Responsible Retailing at Maastricht University argues that responsible retailing is not a short-term financial burden but a multifaceted framework that fosters long-term benefits for both businesses and society, and clarifies the concept, its impact, and its relevance for academic research and retail practice.
+
+  - title: The impact of nutrition claims on purchase behavior for food products
+    authors: Niels Holtrop, Kathleen Cleeren, Kelly Geyskens, Peter C. Verhoef
+    journal: International Journal of Research in Marketing
+    details: 42 (3B), 788–808
+    year: 2025
+    topics: [health]
+    links:
+      - label: DOI
+        url: https://doi.org/10.1016/j.ijresmar.2024.11.001
+      - label: MSI paper
+        url: https://www.msi.org/research-recap/the-impact-of-nutrition-claims-on-sku-choice-an-investigation-of-the-moderating-impact-of-sku-and-category-characteristics/
+    abstract: >
+      Faced by increasing emphasis on health, manufacturers try to persuade consumers by using nutrition claims on their packaging. Although experimental research suggests that such claims influence consumer behavior in different ways, it remains unknown whether and to what extent they have an effect in actual grocery situations with large amounts of information to process. In this study, the authors investigate the effect of presence (stressing the presence of a healthy ingredient) and absence nutrition claims (stressing the absence of an unhealthy ingredient) on consumer purchase behavior using UK household scanner purchase data from 17 product categories during the years 2009–2012. They find that presence nutrition claims increase choice while absence nutrition claims decrease choice. Both types of nutrition claims do not influence the quantity purchased. Importantly, a nutrition claim's effectiveness depends on SKU and category characteristics. Presence nutrition claims are more effective in healthy categories, and absence nutrition claims for SKUs with fewer promotions. At the same time, both nutrition claims are less effective for higher priced SKUs and more effective for brands with higher advertising spending. Absence nutrition claims are more effective when fewer SKUs in the category have the same type of nutrition claim, but presence nutrition claims benefit when more SKUs have the same type of nutrition claim.
+
+  - title: Does the online direct channel cannibalize or synergize the retail network? The moderating impact of retailer competitive strength
+    authors: Michiel van Crombrugge, Niels Holtrop, Kathleen Cleeren, Els Breugelmans
+    journal: International Journal of Research in Marketing
+    details: 42 (1), 171–191
+    year: 2025
+    topics: [retail]
+    links:
+      - label: DOI
+        url: https://doi.org/10.1016/j.ijresmar.2024.08.001
+      - label: Interview
+        url: https://www.ijrm-newsletter.com/post/the-paper-that-almost-died-of-covid-19
+    abstract: >
+      Manufacturers in the retailing sector extensively use online sales points of their own, known as online direct channels. This form of manufacturer encroachment offers consumers the possibility to purchase directly from the manufacturer and hence may cannibalize retailer sales. However, it may also create synergy effects by increasing brand awareness, which may create additional retailer sales. In this research, we investigate the cannibalistic versus synergetic nature of the relationship between an established online direct channel and the retail network and assess whether retailer characteristics related to competitive strength impact this relationship. Using unique sales data from the toy industry and vector autoregressive modeling, we find that the short-term cross-channel price elasticity of online direct channels on retailer sales is negative and significant, indicating a synergetic relationship on average. However, the impact is heterogenous across retailers. Our analysis reveals that acquisition utility components of competitive strength, such as price and innovativeness, especially for large items, can enhance synergetic effects and mitigate the risk of cannibalization. Transaction utility components, such as online presence or the number of physical stores, do not play a moderating role.
+
+  - title: Reproducibility in Management Science
+    authors: Milos Fišar, Ben Greiner, Christoph Huber, Elena Katok, Ali Ozkes, and the Management Science Reproducibility Collaboration
+    journal: Management Science
+    details: 70 (3), 1343–2022
+    year: 2024
+    note: Contribution as part of the Management Science Reproducibility Collaboration
+    topics: [methods]
+    links:
+      - label: DOI
+        url: https://doi.org/10.1287/mnsc.2023.03556
+    abstract: >
+      With the help of more than 700 reviewers, we assess the reproducibility of nearly 500 articles published in the journal Management Science before and after the introduction of a new Data and Code Disclosure policy in 2019. When considering only articles for which data accessibility and hardware and software requirements were not an obstacle for reviewers, the results of more than 95% of articles under the new disclosure policy could be fully or largely computationally reproduced. However, for 29% of articles, at least part of the data set was not accessible to the reviewer. Considering all articles in our sample reduces the share of reproduced articles to 68%. These figures represent a significant increase compared with the period before the introduction of the disclosure policy, where only 12% of articles voluntarily provided replication materials, of which 55% could be (largely) reproduced. Substantial heterogeneity in reproducibility rates across different fields is mainly driven by differences in data set accessibility. Other reasons for unsuccessful reproduction attempts include missing code, unresolvable code errors, weak or missing documentation, and software and hardware requirements and code complexity. Our findings highlight the importance of journal code and data disclosure policies and suggest potential avenues for enhancing their effectiveness.
+
+  - title: "Healthy shopping dynamics: The healthiness of sequential grocery choices"
+    authors: Koert van Ittersum, Martine van der Heide, Niels Holtrop, Tammo H. Bijmolt, Jenny van Doorn
+    journal: Journal of Retailing
+    details: 100 (1), 24–40
+    year: 2024
+    topics: [health, retail]
+    links:
+      - label: DOI
+        url: https://doi.org/10.1016/j.jretai.2023.09.002
+      - label: Media
+        url: https://studyfinds.org/grocery-store-seesaw/
+    abstract: >
+      Improving the healthiness of diets can be realized by replacing unhealthy with healthier product alternatives when shopping for groceries. For this strategy to be effective, shoppers need to consistently make healthier choices. However, shoppers may end up balancing the healthiness of their choices throughout the shopping trip, (partly) offsetting the benefits of a healthy product choice (e.g., low-fat milk) by an unhealthy subsequent choice (e.g., sugary cornflakes). Across two studies, one study with purchase data from a brick-and-mortar supermarket and one online experimental study, we empirically demonstrate that the relative healthiness of an initial product choice is indeed inversely related to the relative healthiness of the subsequent choice, regardless of the category of both products. That means: a relatively healthy choice is followed by a relatively unhealthier choice, and vice versa. Furthermore, the strength of this balancing effect differs depending on the nature of the product category; the dynamic effect is less pronounced when subsequently choosing within a vice (vs. virtue) product category. In the brick-and-mortar supermarket, the dynamics also become less pronounced as the shopping trip progresses. These findings contribute to literature on in-store decision-making and within-trip dynamics, and underscore the need for retailers to have a thorough understanding of these healthy shopping dynamics in order to effectively promote healthier baskets in support of the growing demand for healthy diets.
+
+  - title: Timing customer reactivation initiatives
+    authors: Niels Holtrop, Jaap E. Wieringa
+    journal: International Journal of Research in Marketing
+    details: 40 (3), 570–589
+    year: 2023
+    topics: [customer]
+    links:
+      - label: DOI
+        url: https://doi.org/10.1016/j.ijresmar.2023.05.001
+      - label: Interview
+        url: https://www.ijrm-newsletter.com/post/a-melody-of-data
+      - label: MSI paper
+        url: https://www.msi.org/research-recaps/timing-customer-reactivation-initiatives/
+      - label: Code
+        url: https://drive.google.com/file/d/17XRDMOdaATsKJLcTMXZO2N8gHNtoESpG/view
+    abstract: >
+      Firms operating in non-contractual settings apply customer reactivation initiatives such as email messages to stimulate customers who have become inactive temporarily or permanently to resume their transaction activities. Thus, firms need to know which customers are inactive, and when a customer becomes inactive. Existing approaches struggle to distinguish active from inactive customers and do not provide time-scale estimates of when to send reactivation mails. To address these shortcomings, we develop an approach to target and time the sending of reactivation mails. Building on control chart methods, we introduce a gamma–gamma control chart, modelling the average customer interpurchase time and the variation therein to determine activity boundaries. Crossing these boundaries signals a potential change in a customer's purchasing activity, providing a signal to initiate customer reactivation. A field experiment in the greetings and gifts industry, supported by several additional analyses, illustrates the improved performance of our approach when it comes to signaling customer activity against a wide range of competing models. The improved performance of our method occurs particularly in settings where customers vary strongly in purchase and inactivity patterns.
+
+  - title: "No future without the past? Predicting churn in the face of customer privacy"
+    authors: Niels Holtrop, Jaap E. Wieringa, Maarten J. Gijsenberg, Peter C. Verhoef
+    journal: International Journal of Research in Marketing
+    details: 34 (1), 154–172
+    year: 2017
+    award: Winner, EMAC/Sheth Doctoral Dissertation Competition 2018
+    topics: [customer]
+    links:
+      - label: DOI
+        url: https://doi.org/10.1016/j.ijresmar.2016.06.001
+      - label: Video
+        url: https://www.youtube.com/watch?v=T7uoUwwBnhU
+    abstract: >
+      For customer-centric firms, churn prediction plays a central role in churn management programs. Methodological advances have emphasized the use of customer panel data to model the dynamic evolution of a customer base to improve churn predictions. However, pressure from policy makers and the public geared to reducing the storage of customer data has led to firms' 'self-policing' by limiting data storage, rendering panel data methods infeasible. We remedy these problems by developing a method that captures the dynamic evolution of a customer base without relying on the availability of past data. Instead, using a recursively updated model our approach requires only knowledge of past model parameters. This generalized mixture of Kalman filters model maintains the accuracy of churn predictions compared to existing panel data methods when data from the past is available. In the absence of past data, applications in the insurance and telecommunications industry establish superior predictive performance compared to simpler benchmarks. These improvements arise because the proposed method captures the same dynamics and unobserved heterogeneity present in customer databases as advanced methods, while achieving privacy preserving data minimization and data anonymization. We therefore conclude that privacy preservation does not have to come at the cost of analytical operations.

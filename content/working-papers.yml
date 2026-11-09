@@ -1,0 +1,52 @@
+# Work in progress, other publications and archived projects.
+# links are optional.
+
+work_in_progress:
+  - title: Why do retailers charge different prices for identical products across countries?
+    authors: A. ter Braak, N. Holtrop, B. Deleersnyder
+  - title: "Market your share! How marketing capabilities impact analyst & investor relationships and firm value"
+    authors: A. Tomano, T. Post, N. Holtrop, J.E. Pennings
+  - title: "Talk the walk: Predicting pricing power using top management teams' language"
+    authors: A. Tomano, N. Holtrop, J. Pennings, T. Post, H. Wetzel
+  - title: "From privacy calculus to convenience calculus: How managers and customers navigate data relationships"
+    authors: K.L. Walker, N. Holtrop, G.R. Milne, C. Lancelot-Miltgen
+
+other_publications:
+  - title: "Consumer perceptions of EU-origin labelling: Trust, decision-making and potential misperceptions"
+    authors: K. Geyskens, N. Holtrop
+    outlet: European Parliament, Policy Department for Citizens, Equality and Culture
+    year: 2026
+    links:
+      - label: PDF
+        url: https://www.europarl.europa.eu/RegData/etudes/BRIE/2026/792395/IUST_BRI(2026)792395_EN.pdf
+  - title: "Future-proofing higher vocational education: Do curricula prepare students with the social, emotional, and behavioral skills needed for tomorrow's world?"
+    authors: B. Belfi, N. Holtrop, J. Allen, D. Fouarge
+    outlet: Skills2Capabilities project deliverable
+    year: 2025
+    links:
+      - label: PDF
+        url: https://www.skills2capabilities.eu/files/results/papers/04_d6.8_skill_scanner_deliverable.pdf
+  - title: Niet-routinematige vaardigheden in hbo-profielen
+    authors: J. Allen, B. Belfi, D. Fouarge, N. Holtrop, S. Kozole
+    outlet: ROA Reports No. 003
+    year: 2021
+    links:
+      - label: DOI
+        url: https://doi.org/10.26481/umarep.2021003
+
+archived:
+  - title: "Reactions to competitive attacks: An empirical investigation of responses to strategic, sub-strategic and tactical decisions"
+    authors: N. Holtrop, J.E. Wieringa, M.J. Gijsenberg, P. Stern
+    links:
+      - label: Working paper
+        url: https://drive.google.com/open?id=17kKkreMxVxqUpMnLEF9RF8aywZdQyHHA
+  - title: "All ads are not created equal: Display advertisement's copy and placement effects on clicks and conversions"
+    authors: L. Lobschat, N. Holtrop, N.I. Bruce, R.C. Rao
+    links:
+      - label: SSRN
+        url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3531468
+  - title: Optimal policy design for the sugar tax
+    authors: A. Nedelko, A. Grigoriev, K. Geyskens, N. Holtrop
+    links:
+      - label: arXiv
+        url: https://arxiv.org/abs/1810.07243

@@ -1,0 +1,67 @@
+# Short CV shown on the page. Use "period" for dates.
+
+employment:
+  - role: Associate Professor of Marketing
+    org: Maastricht University
+    period: Since 2016
+    note: Assistant Professor from August 2016
+  - role: Fellow
+    org: Graduate School of Business and Economics (GSBE), Maastricht University
+    period: Since 2019
+  - role: Lecturer
+    org: University of Groningen
+    period: 2014 to 2016
+
+education:
+  - degree: Fostering Future Leaders, university-wide leadership development program
+    org: Maastricht University
+    period: 2021
+  - degree: PhD Economics & Business, Marketing
+    org: University of Groningen
+    period: 2017
+    note: "Leveraging Data Rich Environments Using Marketing Analytics. Supervisors: Prof. Dr. Jaap E. Wieringa and Dr. Maarten J. Gijsenberg"
+  - degree: MSc Research Master Marketing
+    org: University of Groningen
+    period: 2011
+  - degree: MSc Econometrics, Operations Research and Actuarial Science (cum laude)
+    org: University of Groningen
+    period: 2010
+  - degree: BSc Econometrics
+    org: University of Groningen
+    period: 2009
+
+grants:
+  - title: NWO Vidi grant
+    detail: How mental health diagnoses shape purchase behaviour
+    period: ""
+  - title: Research grant
+    detail: How cancer diagnoses shape purchase behaviour
+    period: ""
+
+awards:
+  - title: Winner, EMAC/Sheth Sustainability Award (with Lien Lamey & Els Breugelmans)
+    year: 2026
+  - title: Runner up, SBE Senior Researcher Award
+    year: 2024
+  - title: Winner, SBE Best Program Leader Award
+    year: 2021
+  - title: Winner, SBE Excellent Graduate Educator Award
+    year: 2019
+  - title: Top course coordinator, MSCM Department
+    year: 2018, 2019, 2021
+  - title: Winner, EMAC/Sheth Doctoral Dissertation Award
+    year: 2018
+  - title: Fellow, AMA-Sheth Doctoral Consortium, London Business School
+    year: 2015
+  - title: Fellow, INFORMS Marketing Science Doctoral Consortium, Atlanta
+    year: 2014
+  - title: Fellow, INFORMS Marketing Science Doctoral Consortium, Istanbul
+    year: 2013
+  - title: Fellow, EMAC Doctoral Colloquium Advanced Track, Lisbon
+    year: 2012
+  - title: Finalist, NWO Research Talent grant (7% funding rate)
+    year: 2012
+
+service:
+  - Editorial Review Board, Journal of Retailing
+  - Co-founder, Center for Responsible Retailing at Maastricht University (CRRUM)
