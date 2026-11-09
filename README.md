@@ -19,6 +19,12 @@ A single page academic website. All content lives in plain text files in `conten
 
 **Add a publication.** Open `content/publications.yml`, copy an existing entry (from `- title:` down to the end of its abstract), paste it at the top of `items:`, and edit the fields. Keep the indentation exactly as in the other entries (two spaces per level). Put titles that contain a colon between double quotes. `topics` takes one or more of `customer`, `health`, `retail`, `methods`.
 
+**Add a publisher PDF.** Six months after an article first appears online, the publisher's version may be shared under the Taverne amendment (Article 25fa of the Dutch Copyright Act); open access articles under CC BY can be shared straight away. Copy the PDF to `static/papers/` and add it as the first link of the article in `content/publications.yml`:
+```
+      - label: PDF
+        url: papers/your-file.pdf
+```
+
 **Add a media item.** Open `content/media.yml` and add an entry at the top. YouTube links get an embedded player automatically; it only loads when a visitor clicks play, so no YouTube cookies are set beforehand. For a photo, copy the image to `static/img/` and set `image: img/yourfile.jpg`.
 
 **Add your profile photo.** Save a portrait (roughly 4:5, at least 600 px wide) as `static/img/profile.jpg`. Until then the page shows your initials.

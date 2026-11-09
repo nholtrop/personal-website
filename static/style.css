@@ -187,6 +187,8 @@ p { margin: 0; }
 .abstract p { margin-top: 0.75rem; font-size: 0.98rem; line-height: 1.65; max-width: 44rem; }
 .pub[hidden] { display: none; }
 
+.pub-license { margin-top: 1.25rem; max-width: 46rem; font-size: var(--step--1); color: var(--muted); }
+
 /* Working papers */
 .stack { display: grid; gap: 2.25rem; min-width: 0; }
 .plain { list-style: none; margin: 0; padding: 0; display: grid; gap: 1rem; }

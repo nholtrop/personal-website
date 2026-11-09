@@ -265,6 +265,7 @@ function render({ preview = false } = {}) {
         ${topics.map(t => `<button type="button" class="chip" data-filter="${esc(t.id)}" aria-pressed="false">${esc(t.label)}</button>`).join('')}
       </div>
       <ol class="pubs">${pubHTML}</ol>
+      ${PUB.pdf_note ? `<p class="pub-license">${inline(PUB.pdf_note)}</p>` : ''}
     </div>
   </section>
 

@@ -1,6 +1,8 @@
 # Journal publications, newest first.
 # topics: any of customer, health, retail, methods (used by the filter buttons).
-# links: label + url; common labels are PDF, DOI, Podcast, Video, Interview, Code, Slides, Data.
+# links: label + url; a publisher PDF goes in static/papers/ (url: papers/file.pdf), six months after first online publication; common labels are PDF, DOI, Podcast, Video, Interview, Code, Slides, Data.
+
+pdf_note: PDFs of open access articles are shared under their CC BY licence. Other publisher versions are shared at least six months after first publication under Article 25fa of the Dutch Copyright Act (Taverne amendment), with the original source listed for each article.
 
 topics:
   - id: customer
@@ -34,6 +36,8 @@ items:
     year: 2026
     topics: [health, methods]
     links:
+      - label: PDF
+        url: papers/holtrop-et-al-2026-first-light-purchase.pdf
       - label: DOI
         url: https://doi.org/10.1007/s11002-025-09807-0
     abstract: >
@@ -46,6 +50,8 @@ items:
     year: 2025
     topics: [retail]
     links:
+      - label: PDF
+        url: papers/holtrop-lobschat-ter-braak-2025-responsible-retailing.pdf
       - label: DOI
         url: https://doi.org/10.1016/j.jretai.2025.02.006
     abstract: >
@@ -58,6 +64,8 @@ items:
     year: 2025
     topics: [health]
     links:
+      - label: PDF
+        url: papers/holtrop-et-al-2025-nutrition-claims.pdf
       - label: DOI
         url: https://doi.org/10.1016/j.ijresmar.2024.11.001
       - label: MSI paper
@@ -72,6 +80,8 @@ items:
     year: 2025
     topics: [retail]
     links:
+      - label: PDF
+        url: papers/van-crombrugge-et-al-2025-online-direct-channel.pdf
       - label: DOI
         url: https://doi.org/10.1016/j.ijresmar.2024.08.001
       - label: Interview
@@ -99,6 +109,8 @@ items:
     year: 2024
     topics: [health, retail]
     links:
+      - label: PDF
+        url: papers/van-ittersum-et-al-2024-healthy-shopping-dynamics.pdf
       - label: DOI
         url: https://doi.org/10.1016/j.jretai.2023.09.002
       - label: Media
@@ -113,6 +125,8 @@ items:
     year: 2023
     topics: [customer]
     links:
+      - label: PDF
+        url: papers/holtrop-wieringa-2023-timing-customer-reactivation.pdf
       - label: DOI
         url: https://doi.org/10.1016/j.ijresmar.2023.05.001
       - label: Interview
@@ -132,6 +146,8 @@ items:
     award: Winner, EMAC/Sheth Doctoral Dissertation Competition 2018
     topics: [customer]
     links:
+      - label: PDF
+        url: papers/holtrop-et-al-2017-churn-customer-privacy.pdf
       - label: DOI
         url: https://doi.org/10.1016/j.ijresmar.2016.06.001
       - label: Video
