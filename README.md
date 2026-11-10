@@ -25,7 +25,7 @@ A single page academic website. All content lives in plain text files in `conten
         url: papers/your-file.pdf
 ```
 
-**Add a media item.** Open `content/media.yml` and add an entry at the top. YouTube links get an embedded player automatically; it only loads when a visitor clicks play, so no YouTube cookies are set beforehand. For a photo, copy the image to `static/img/` and set `image: img/yourfile.jpg`.
+**Add a media item.** Open `content/media.yml` and add an entry at the top. Each item gets a designed cover; pick its drawing with `motif:` (the options are listed at the top of the file). YouTube links get an embedded player automatically; it only loads when a visitor clicks play, so no YouTube cookies are set beforehand. For a photo, copy the image to `static/img/` and set `image: img/yourfile.jpg`.
 
 **Add your profile photo.** Save a portrait (roughly 4:5, at least 600 px wide) as `static/img/profile.jpg`. Until then the page shows your initials.
 

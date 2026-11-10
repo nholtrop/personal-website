@@ -5,6 +5,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
+const { motif } = require('./motifs');
 
 const ROOT = __dirname;
 const OUT = path.join(ROOT, 'public');
@@ -188,17 +189,21 @@ function render({ preview = false } = {}) {
         ${linksHTML(w.links)}</li>`).join('')}</ul>`;
 
   const mediaTypeLabel = { press: 'Press', interview: 'Interview', video: 'Video', podcast: 'Podcast', photo: 'Photo' };
-  const MEDIA_SHOWN = 9;
+  const MEDIA_SHOWN = 6;
   const mediaHTML = arr(MED.items).map((m, idx) => {
     const yt = youtubeId(m.url);
-    let visual = '';
-    if (m.type === 'photo' && m.image) visual = `<img class="media-img" src="${esc(m.image)}" alt="${esc(m.title)}" loading="lazy">`;
-    else if (yt) visual = `<button class="media-play" type="button" data-yt="${yt}" aria-label="Play ${esc(m.title)}">${icon('play')}<span>Play here</span></button>`;
-    else if (m.audio) visual = `<audio class="media-audio" controls preload="none" src="${esc(m.audio)}"></audio>`;
-    return `<li class="media-card media-${esc(m.type)}${idx >= MEDIA_SHOWN ? ' media-extra' : ''}">
-      ${visual}
+    const type = mediaTypeLabel[m.type] ? m.type : 'press';
+    const inner = `<span class="cover-top"><span>${esc(mediaTypeLabel[type])}</span><span>${esc(m.date || '')}</span></span>
+        <span class="cover-outlet">${esc(m.outlet)}</span>${motif(m.motif, type)}`;
+    let cover;
+    if (m.type === 'photo' && m.image) cover = `<img class="media-img" src="${esc(m.image)}" alt="${esc(m.title)}" loading="lazy">`;
+    else if (yt) cover = `<button class="cover cover-${type} media-play" type="button" data-yt="${yt}" aria-label="Play ${esc(m.title)}">${inner}<span class="cover-play">${icon('play')}</span></button>`;
+    else if (m.url) cover = `<a class="cover cover-${type}" href="${esc(m.url)}"${ext(m.url)} tabindex="-1" aria-hidden="true">${inner}</a>`;
+    else cover = `<div class="cover cover-${type}" aria-hidden="true">${inner}</div>`;
+    return `<li class="media-card${idx >= MEDIA_SHOWN ? ' media-extra' : ''}">
+      ${cover}
       <div class="media-text">
-        <p class="media-kicker"><span>${esc(mediaTypeLabel[m.type] || m.type)}</span><span>${esc(m.outlet)}${m.date ? ` · ${esc(m.date)}` : ''}</span></p>
+        ${m.audio ? `<audio class="media-audio" controls preload="none" src="${esc(m.audio)}"></audio>` : ''}
         <h3 class="media-title">${m.url ? `<a href="${esc(m.url)}"${ext(m.url)}>${inline(m.title)}</a>` : inline(m.title)}</h3>
         ${m.description ? `<p class="media-desc">${inline(m.description)}</p>` : ''}
         ${linksHTML(m.links)}
