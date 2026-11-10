@@ -22,6 +22,8 @@ items:
     year: 2026
     topics: [health]
     links:
+      - label: PDF
+        url: papers/cleeren-et-al-2026-recent-brand-consumption.pdf
       - label: DOI
         url: https://doi.org/10.1016/j.ijresmar.2026.01.003
       - label: Podcast
@@ -92,11 +94,13 @@ items:
   - title: Reproducibility in Management Science
     authors: Milos Fišar, Ben Greiner, Christoph Huber, Elena Katok, Ali Ozkes, and the Management Science Reproducibility Collaboration
     journal: Management Science
-    details: 70 (3), 1343–2022
+    details: 70 (3), 1343–1356
     year: 2024
     note: Contribution as part of the Management Science Reproducibility Collaboration
     topics: [methods]
     links:
+      - label: PDF
+        url: papers/fisar-et-al-2024-reproducibility-management-science.pdf
       - label: DOI
         url: https://doi.org/10.1287/mnsc.2023.03556
     abstract: >
