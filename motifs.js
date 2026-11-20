@@ -30,11 +30,12 @@ const M = {
   seesaw: '<path d="M60 72l-16 30h32z"/><path d="M12 80l96-28"/><rect x="18" y="58" width="20" height="18" transform="rotate(-16 28 67)"/><circle class="h" cx="92" cy="44" r="9"/>',
   mail: '<rect x="8" y="30" width="72" height="52" rx="4"/><path d="M8 34l36 28 36-28"/><path class="h" d="M110 76a15 15 0 1 1-5-11M106 54l-1 11 11 1"/>',
   lock: '<rect x="32" y="56" width="56" height="48" rx="6"/><path d="M44 56V40a16 16 0 0 1 32 0v16"/><circle class="hf" cx="60" cy="76" r="6"/><path class="h" d="M60 82v10"/><path class="d" d="M8 28h16M8 44h10M96 22h16M102 38h10"/>',
+  pricehistory: '<path d="M14 16v88h92"/><path class="h d" d="M20 30h84"/><path d="M20 62h16v-8h18v14h16v-6h16v10h16"/><circle class="hf" cx="102" cy="72" r="5"/><path class="h" d="M60 22l12 16"/>',
   newspaper: '<rect x="16" y="20" width="88" height="80" rx="4"/><path class="th" d="M26 34h68"/><path d="M26 50h28M26 60h28M26 70h28M26 80h28M26 90h18"/><rect class="h" x="64" y="50" width="30" height="22"/><path d="M64 82h30M64 90h20"/>',
   screen: '<rect x="10" y="20" width="100" height="66" rx="6"/><path d="M42 106h36M60 86v20"/><path class="hf" d="M50 38l26 15-26 15z"/>',
 };
 
-const DEFAULTS = { press: 'newspaper', interview: 'quote', video: 'screen', podcast: 'mic', photo: 'screen' };
+const DEFAULTS = { press: 'newspaper', blog: 'quote', interview: 'quote', video: 'screen', podcast: 'mic', photo: 'screen' };
 
 function motif(name, type) {
   const body = M[name] || M[DEFAULTS[type]] || M.newspaper;

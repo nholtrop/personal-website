@@ -1,13 +1,21 @@
 # Media items, newest first. The first 6 are shown; the rest appear under "Show all".
-# type: press | interview | video | podcast | photo
+# type: press | blog | interview | video | podcast | photo
 # YouTube links are embedded automatically (privacy enhanced, loads on click).
 # motif: drawing on the cover: cart, label, bars, phone, coin, headset, mic, megaphone, pie, tag,
-#   calendar, bag, gift, storefront, quote, seesaw, mail, lock, newspaper, screen (default by type).
+#   calendar, bag, gift, storefront, quote, seesaw, mail, lock, pricehistory, newspaper, screen (default by type).
 # links: optional extra buttons, e.g. a video of a TV item.
 # For your own audio, put the mp3 in static/media/ and set audio: media/file.mp3
 # For photos, put the image in static/img/ and set image: img/file.jpg
 
 items:
+  - type: blog
+    title: "Black Friday: a real bargain, or the autumn sale in a new coat?"
+    motif: pricehistory
+    outlet: Maastricht University
+    date: Nov 2026
+    url: https://www.maastrichtuniversity.nl/news/black-friday-real-bargain-or-autumn-sale-new-coat-0
+    description: Opinion piece on whether Black Friday deals are real bargains, and how crossed-out prices and countdown timers steer shoppers.
+
   - type: video
     title: Koop jij liever A-merken of B-merken?
     motif: cart

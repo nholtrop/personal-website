@@ -188,7 +188,7 @@ function render({ preview = false } = {}) {
         <span class="wp-meta">${authorsHTML(w.authors, self)}${withOutlet && w.outlet ? `. <em>${esc(w.outlet)}</em>` : ''}${w.year ? `, ${esc(w.year)}` : ''}</span>
         ${linksHTML(w.links)}</li>`).join('')}</ul>`;
 
-  const mediaTypeLabel = { press: 'Press', interview: 'Interview', video: 'Video', podcast: 'Podcast', photo: 'Photo' };
+  const mediaTypeLabel = { press: 'Press', blog: 'Blog', interview: 'Interview', video: 'Video', podcast: 'Podcast', photo: 'Photo' };
   const MEDIA_SHOWN = 6;
   const mediaHTML = arr(MED.items).map((m, idx) => {
     const yt = youtubeId(m.url);

@@ -233,7 +233,7 @@ p { margin: 0; }
 }
 .cover-video { --cv-bg: var(--cov-video-bg); --cv-ink: var(--cov-video-ink); --cv-hot: var(--accent); }
 .cover-podcast { --cv-bg: var(--cov-podcast-bg); --cv-ink: var(--cov-podcast-ink); }
-.cover-interview { --cv-bg: var(--cov-interview-bg); --cv-ink: var(--cov-interview-ink); }
+.cover-interview, .cover-blog { --cv-bg: var(--cov-interview-bg); --cv-ink: var(--cov-interview-ink); }
 .cover-top {
   position: absolute; top: 0.9rem; left: 1.1rem; right: 1.1rem; display: flex; justify-content: space-between; gap: 1rem;
   font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.07em; text-transform: uppercase;
