@@ -1,15 +1,26 @@
-# Work in progress, other publications and archived projects.
-# links are optional.
+# Working papers, other publications and archived projects, each shown as its own section.
+# Optional fields: abstract, links, year, status (shown in the left column, e.g. Under review).
 
 work_in_progress:
-  - title: Why do retailers charge different prices for identical products across countries?
+  - title: "Pricing strategies at international retailers: Why do prices consumers pay for identical products at the same retailer differ so much between countries?"
     authors: A. ter Braak, N. Holtrop, B. Deleersnyder
-  - title: "Market your share! How marketing capabilities impact analyst & investor relationships and firm value"
+    abstract: >
+      Prices for identical products at the same retailer vary greatly between countries, even if countries are geographically close, have common trade conditions, and share the same currency. Consumer prices are not always systematically more favorable in one country, and macro-level country factors alone (like taxes) are unable to justify them. Based on a large-scale price comparison of identical Stock Keeping Units (SKU) sold at international grocery and non-grocery retailers across four European countries, the average country price difference for identical products in 2025 is 20.1%. Promotion intensity also varies between countries, with around six more promotion weeks offered by the retailer for a product in one of the countries. When controlling for country and category factors, this study links the remaining price and promotion gaps to differences in country demand and store competition, but also retailer dependence on a brand supplier is related to country price differences of branded products. Given that substantial gaps are also observed for private label SKUs where retailers are largely in control of prices and sourcing agreement, manufacturers alone cannot be blamed for large country price differences. Instead, retailers too have an important role in country price customization and exploit national borders to discriminate product prices. Thus, policy measures that focus solely on manufacturers’ trade practices are unlikely to solve the problem of large country price differences and policymakers are advised to make country price differences more salient to retailers and consumers to exploit current cross border arbitrage opportunities.
+
+  - title: "Market your share! How marketing capability and its communication drive firm value through analyst & investor relationships"
     authors: A. Tomano, T. Post, N. Holtrop, J.E. Pennings
-  - title: "Talk the walk: Predicting pricing power using top management teams' language"
+    abstract: >
+      Valuing assets that drive future firm performance is a pivotal but difficult task for financial analysts and investors. This study investigates how Analyst & Investor Relationships (AIR), as a strategic market-based asset, impacts firm valuation. Using a comprehensive survey-based measure of AIR across 1,159 U.S. firms from 2015 to 2020, we find that AIR contributes positively to firm value, measured by Total q. Drawing on resource-based theory, we identify marketing capabilities (MC) as a critical antecedent: firms with superior MC exhibit stronger AIR, and communicating MC during earnings calls strengthens this conversion. Further moderation analyses reveal that analyst coverage weakens the link between MC and AIR, but amplifies the relationship between AIR and firm value, whereas institutional ownership attenuates the latter. These findings demonstrate that a firm’s ability to market its shares is context-dependent, contributing to literature by revealing the nuanced pathways through which MC and AIR generate firm value.
+
+  - title: "Talk the walk: Predicting pricing power using top management teams’ language"
     authors: A. Tomano, N. Holtrop, J. Pennings, T. Post, H. Wetzel
+    abstract: >
+      Pricing power (PP) – the ability of firms to raise or sustain prices without curtailing demand – is a fundamental driver of long-term value creation. Established accounting measures like the price–cost margin (PCM) are retrospective and cost-contaminated; they confound price-driven margin gains with cost cuts and fail to anticipate a change in a firm’s pricing position before it materializes. Using linguistic dependency parsing on firms’ earnings calls, this study develops a continuous, firm-level measure of communicated PP, decomposed into a realized and expected PP signal. Applied to 55,664 firm-quarters covering 3,138 US firms from 2018 to 2024, the realized component aligns contemporaneously with the accounting proxies, and the expected component anticipates future PCM, showing that managerial language moves before the accounting record. The study offers a forward-looking, cost-clean and scalable measure of PP that complements the existing proxies, which can be applied ad-hoc to any firm communication.
+
   - title: "From privacy calculus to convenience calculus: How managers and customers navigate data relationships"
     authors: K.L. Walker, N. Holtrop, G.R. Milne, C. Lancelot-Miltgen
+    abstract: >
+      Firms increasingly cultivate data relationships with customers through continuous, often implicit collection of information to support personalization and automation. The dominant account of how customers evaluate such exchanges, the privacy calculus, assumes discrete, salient, and deliberate disclosure decisions, assumptions that rarely hold in data relationships. The authors propose the convenience calculus, a cumulative and largely implicit evaluation in which customers assess the convenience they experience at each interaction (i.e., savings in time and physical and cognitive effort) against the data sacrifice that accumulates over the relationship (i.e., the gradual surrender of awareness of, and control over, their personal data). Because convenience is experienced continuously, whereas data sacrifice remains latent until specific events make it visible, the calculus is structurally tilted toward convenience. This dynamic nature of data relationships between customers and firms is portrayed in four propositions. The authors also introduce a strategic decision variable that simultaneously generates convenience and sacrifice they term customer information intensity (CII) involving the breadth and depth with which firms acquire, store, and use customer data. Linking CII to customer lifetime value (CLV) through the convenience calculus, they derive four CII strategies to manage data relationships (Trusted Convenience, Accumulation, Privacy First, and Exploitation).
 
 other_publications:
   - title: "Consumer perceptions of EU-origin labelling: Trust, decision-making and potential misperceptions"
@@ -42,11 +53,13 @@ archived:
         url: https://drive.google.com/open?id=17kKkreMxVxqUpMnLEF9RF8aywZdQyHHA
   - title: "All ads are not created equal: Display advertisement's copy and placement effects on clicks and conversions"
     authors: L. Lobschat, N. Holtrop, N.I. Bruce, R.C. Rao
+    year: 2020
     links:
       - label: SSRN
         url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3531468
   - title: Optimal policy design for the sugar tax
     authors: A. Nedelko, A. Grigoriev, K. Geyskens, N. Holtrop
+    year: 2018
     links:
       - label: arXiv
         url: https://arxiv.org/abs/1810.07243

@@ -164,29 +164,35 @@ function render({ preview = false } = {}) {
   const year = new Date().getFullYear();
 
   const nav = [['about', 'About'], ['publications', 'Publications'], ['working-papers', 'Working papers'],
-    ['media', 'Media'], ['teaching', 'Teaching'], ['cv', 'CV'], ['contact', 'Contact']]
+    ['other-publications', 'Other publications'], ['archived', 'Archived'], ['media', 'Media'], ['teaching', 'Teaching'], ['cv', 'CV'], ['contact', 'Contact']]
     .filter(([id]) => id !== 'media' || arr(MED.items).length);
 
-  const pubHTML = pubs.map(p => `
-    <li class="pub" id="pub-${slug(p.title)}" data-topics="${esc(arr(p.topics).join(' '))}">
-      <span class="pub-year">${esc(p.year)}</span>
+  const paperHTML = (p, withTopics) => {
+    const venue = p.journal || p.outlet;
+    const actions = arr(p.links).length || p.abstract;
+    return `
+    <li class="pub" id="pub-${slug(p.title)}"${withTopics ? ` data-topics="${esc(arr(p.topics).join(' '))}"` : ''}>
+      <span class="pub-year">${esc(p.year || p.status || '')}</span>
       <div class="pub-body">
         <h3 class="pub-title">${inline(p.title)}</h3>
         <p class="pub-authors">${authorsHTML(p.authors, self)}</p>
-        <p class="pub-venue"><em>${esc(p.journal)}</em>${p.details ? `, ${esc(p.details)}` : ''}</p>
+        ${venue ? `<p class="pub-venue"><em>${esc(venue)}</em>${p.details ? `, ${esc(p.details)}` : ''}</p>` : ''}
         ${p.note ? `<p class="pub-note">${inline(p.note)}</p>` : ''}
         ${p.award ? `<p class="pub-award">${inline(p.award)}</p>` : ''}
-        <div class="pub-actions">
+        ${actions ? `<div class="pub-actions">
           ${linksHTML(p.links)}
           ${p.abstract ? `<details class="abstract"><summary>Abstract</summary>${paras(p.abstract)}</details>` : ''}
-        </div>
+        </div>` : ''}
       </div>
-    </li>`).join('');
-
-  const simpleList = (items, withOutlet) => `<ul class="plain">${arr(items).map(w => `
-      <li><span class="wp-title">${inline(w.title)}</span>
-        <span class="wp-meta">${authorsHTML(w.authors, self)}${withOutlet && w.outlet ? `. <em>${esc(w.outlet)}</em>` : ''}${w.year ? `, ${esc(w.year)}` : ''}</span>
-        ${linksHTML(w.links)}</li>`).join('')}</ul>`;
+    </li>`;
+  };
+  const pubHTML = pubs.map(p => paperHTML(p, true)).join('');
+  const paperSection = (id, title, note, items, alt) => arr(items).length ? `<section id="${id}" class="section${alt ? ' alt' : ''}">
+    <div class="wrap">
+      <div class="section-head"><h2>${title}</h2><p class="count">${note}</p></div>
+      <ol class="pubs">${arr(items).map(p => paperHTML(p, false)).join('')}</ol>
+    </div>
+  </section>` : '';
 
   const mediaTypeLabel = { press: 'Press', blog: 'Blog', interview: 'Interview', video: 'Video', podcast: 'Podcast', photo: 'Photo' };
   const MEDIA_SHOWN = 6;
@@ -274,16 +280,9 @@ function render({ preview = false } = {}) {
     </div>
   </section>
 
-  <section id="working-papers" class="section">
-    <div class="wrap two-col">
-      <div class="col-head"><h2>Working papers</h2></div>
-      <div class="stack">
-        <div><h3 class="mini">Work in progress</h3>${simpleList(WP.work_in_progress)}</div>
-        <div><h3 class="mini">Other publications</h3>${simpleList(WP.other_publications, true)}</div>
-        <div><h3 class="mini">Archived projects</h3>${simpleList(WP.archived)}</div>
-      </div>
-    </div>
-  </section>
+  ${paperSection('working-papers', 'Working papers', `${arr(WP.work_in_progress).length} papers in progress`, WP.work_in_progress, false)}
+  ${paperSection('other-publications', 'Other publications', 'Reports and policy briefs', WP.other_publications, true)}
+  ${paperSection('archived', 'Archived projects', 'No longer in active development', WP.archived, false)}
 
   ${arr(MED.items).length ? `<section id="media" class="section alt">
     <div class="wrap">
