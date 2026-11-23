@@ -50,12 +50,6 @@ other_publications:
         url: https://doi.org/10.26481/umarep.2021003
 
 archived:
-  - title: "Reactions to competitive attacks: An empirical investigation of responses to strategic, sub-strategic and tactical decisions"
-    authors: N. Holtrop, J.E. Wieringa, M.J. Gijsenberg, P. Stern
-    year: 2016
-    links:
-      - label: Working paper
-        url: https://drive.google.com/open?id=17kKkreMxVxqUpMnLEF9RF8aywZdQyHHA
   - title: "All ads are not created equal: Display advertisement's copy and placement effects on clicks and conversions"
     authors: L. Lobschat, N. Holtrop, N.I. Bruce, R.C. Rao
     year: 2020
@@ -68,3 +62,9 @@ archived:
     links:
       - label: arXiv
         url: https://arxiv.org/abs/1810.07243
+  - title: "Reactions to competitive attacks: An empirical investigation of responses to strategic, sub-strategic and tactical decisions"
+    authors: N. Holtrop, J.E. Wieringa, M.J. Gijsenberg, P. Stern
+    year: 2016
+    links:
+      - label: Working paper
+        url: https://drive.google.com/open?id=17kKkreMxVxqUpMnLEF9RF8aywZdQyHHA
