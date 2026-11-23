@@ -36,11 +36,21 @@ education:
 
 grants:
   - title: NWO Vidi grant
-    detail: How mental health diagnoses shape purchase behaviour
+    detail: "“Mental Health and the Shopping Basket”, €850,000"
     period: 2026
   - title: NWO XS grant
-    detail: How cancer diagnoses shape purchase behaviour
+    detail: "“The impact of cancer diagnosis on (un)healthy shopping behavior”, €50,000"
     period: 2025
+  - title: Horizon 2020 consortium grant
+    detail: "“Skills2Capabilities”, €3,000,000"
+    period: 2022
+  - title: NRO contract grant
+    detail: "“Non-routine competencies in higher education”, €50,000"
+    note: Co-investigator with Didier Fouarge, Barbara Belfi and Jim Allen
+    period: 2021
+  - title: Small Scale Research Grant, Maastricht University
+    detail: "€4,000"
+    period: 2018
 
 awards:
   - title: Winner, EMAC/Sheth Sustainability Award (with Lien Lamey & Els Breugelmans)
