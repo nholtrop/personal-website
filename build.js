@@ -171,8 +171,8 @@ function render({ preview = false } = {}) {
     const venue = p.journal || p.outlet;
     const actions = arr(p.links).length || p.abstract;
     return `
-    <li class="pub" id="pub-${slug(p.title)}"${withTopics ? ` data-topics="${esc(arr(p.topics).join(' '))}"` : ''}>
-      <span class="pub-year">${esc(p.year || p.status || '')}</span>
+    <li class="pub${!p.year && p.status ? ' has-status' : ''}" id="pub-${slug(p.title)}"${withTopics ? ` data-topics="${esc(arr(p.topics).join(' '))}"` : ''}>
+      <span class="pub-year${!p.year && p.status ? ' pub-status' : ''}">${esc(p.year || p.status || '')}</span>
       <div class="pub-body">
         <h3 class="pub-title">${inline(p.title)}</h3>
         <p class="pub-authors">${authorsHTML(p.authors, self)}</p>
