@@ -2,6 +2,14 @@
 # Optional fields: abstract, links, year, status (shown in the left column, e.g. Under review).
 
 work_in_progress:
+  - title: "How researchers’ analytical decisions impact brand price elasticity estimates: Insights from a many-analyst study"
+    authors: O. Koll, H. Datta, K. Teichmann, K. Pauwels, H.J. van Heerde, and the IJRM Reproducibility Collaboration
+    status: Revision invited
+    note: Contribution as part of the IJRM Reproducibility Collaboration
+    links:
+      - label: PsyArXiv
+        url: https://osf.io/preprints/psyarxiv/fs3k2
+
   - title: "Pricing strategies at international retailers: Why do prices consumers pay for identical products at the same retailer differ so much between countries?"
     authors: A. ter Braak, N. Holtrop, B. Deleersnyder
     status: Preparing for submission
