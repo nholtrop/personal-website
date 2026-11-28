@@ -2,6 +2,12 @@
 # Optional fields: abstract, links, year, status (shown in the left column, e.g. Under review).
 
 work_in_progress:
+  - title: "How do (un)employment events impact consumers’ grocery shopping behavior?"
+    authors: D. Wu, N. Holtrop, E. Breugelmans, L. Lamey
+    status: Revision invited
+    abstract: >
+      Consumers may encounter different (un)employment events in their lifecycle. This study is the first to systematically analyze how involuntary unemployment, voluntary unemployment and employment alter consumers’ grocery shopping behavior. Using a unique combination of administrative and purchase data, this study tracks the work status and purchase records of more than 8,000 households from 2011 to 2019 in the Netherlands. We identify more than 820 (un)employment events and analyze how they impact consumers’ decisions on where, what and how much to buy. We also assess how the impact of (un)employment events on grocery shopping behavior is mediated by income and time budget changes. The results show that unemployed consumers change where and what to buy, by shopping more often, shifting to cheaper alternatives like private labels and bottom-tier products, and cutting spending on sugar-rich foods, but only when they lose their job against their will. Grocery shopping behavior does not change in case of voluntary unemployment. Employed consumers shop less often and prefer products that reduce both search and preparation time. The follow up mediation analysis indicates that the (un)employment event itself exerts the strongest (direct) influence on consumers’ grocery shopping choices, with the magnitude of time budget and income changes playing no important role.
+
   - title: "How researchers’ analytical decisions impact brand price elasticity estimates: Insights from a many-analyst study"
     authors: O. Koll, H. Datta, K. Teichmann, K. Pauwels, …, N. Holtrop, …, H.J. van Heerde
     status: Revision invited
